@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> 
+    <title>coffee house Tasha</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+
+
+</head>
+<div id="modal">
+    <div class="contents">
+        <button><img class="btn" src="images/md2.png" alt=""></button>
+        <div class="photo-album">
+
+            <h1><span><abbr title="and" class="amp"></abbr> Tasha's Menu</span></h1>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2254117707/in/set-72157604232220981" class="large polaroid img1"><img src="images/sm1.jpg" alt="">선녀떡 :<br> 바리스타가 "선녀 커피"와 즐겨 먹는 떡</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2254700486/in/set-72157604232220981/" class="polaroid img2"><img src="images/sm2.jpg" alt="">참새의 튀밥 :<br>많이 먹어도 참새처럼 가벼워지는 떡</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2254704566/in/set-72157604232220981/" class="small polaroid img3"><img src="images/sm3.jpg" alt="">안 검은 떡 :<br> 검은물과 먹으면 딱 기가막힌 떡</a>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2311404989/in/set-72157604232220981/" class="medium polaroid img4"><img src="images/sm4.jpg" alt="">별빛 알레강스 :<br>"달빛 알레강스"와 꼭 먹어야 하는 떡</a>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2312219680/in/set-72157604232220981" class="polaroid img5"><img src="images/sm5.jpg" alt="">돼요. 왕자님 :<br>커플이라면 "안돼요 공주님"과 함께 필히 먹어야 하는 떡</a>
+
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2254789880/in/set-72157604232220981/" class="polaroid img6"><img src="images/sm6.JPG" alt="">사슴의 콩떡 :<br>"사슴의 눈물"로 반죽한 떡</a>
+
+            <a href="http://www.flickr.com/photos/nataliedowne/2341399904/in/set-72157604232220981/" class="polaroid img7"><img src="images/sm9.jpg" alt="">검은떡 :<br>검은물과 반드시 먹어야 하는 떡</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2352603191/in/set-72157604232220981/" class="small polaroid img8"><img src="images/mm1.jpg" alt="">사슴의 눈물 :<br>카라멜 & 알몬드의 맛과 너티함</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2340993237/in/set-72157604232220981/" class="medium polaroid img9"><img src="images/mm2.jpg" alt="">참새의 아침식사 :<br>깊은 바디감, 묵직한 고소함</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2306995686/in/set-72157604033893095/" class="polaroid img10"><img src="images/mm3.jpg" alt="">안돼요. 공주님 :<br>화사한 꽃향기, 발랄한 맛</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2306989200/in/set-72157604033893095/" class="small polaroid img11"><img src="images/mm4.jpg" alt="">달빛 알레강스 :<br>독특한 향미, 고소하고 달콤한 향</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2352608953/in/set-72157604232220981/" class="small polaroid img12"><img src="images/mm5.jpg" alt="">검은물 :<br>다크한 맛</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2341816430/in/set-72157604232220981/" class="small polaroid img13"><img src="images/ss6.jpg" alt="">Us in a blue cave on the Franz Josef glacier</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2352490411/in/set-72157604232220981/" class="small polaroid img14"><img src="images/s2.jpg" alt="">Stewart Island</a>
+            <a href="http://www.flickr.com/photos/nataliedowne/2339184562/in/set-72157604232220981/" class="polaroid img15"><img src="images/mm6.jpg" alt="">선녀커피 :<br>바리스타 마음 내키는 대로 만드는 맛</a>
+
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        $(".text").click(function() {
+            $("#modal").show();
+        });
+        $(".btn").click(function() {
+            $("#modal").hide();
+        });
+    });
+</script>
+<body>
+    <!----------------slide  start---------------->
+   
+    <div id="container">
+        <div id="wrapper1">
+            <div class="home__slider">
+                <div class="bxslider">
+                    <div><img src="images/s1.jpg" width="2000" height="800" alt=""></div>
+                    <div><img src="images/ss1.jpg" width="2000" height="800" alt=""></div>
+                    <div><img src="images/ss2.jpg" width="2000" height="800" alt=""></div>
+                    <div><img src="images/ss3.jpg" width="2000" height="800" alt=""></div>
+                    <div><img src="images/ss4.jpg" width="2000" height="800" alt=""></div>
+                    <div><img src="images/ss5.jpg" width="2000" height="800" alt=""></div>
+                    <div><img src="images/s3.jpg" width="2000" height="800" alt=""></div>
+                </div>
+            </div>
+
+<!--
+            <div class="ei-title">
+                <h3>Coffee House</h3>
+                <h2>Tasha</h2>
+-->
+                <div class="slide-logo">
+                    <p>coffee house <span>Tasha</span></p>
+                </div>
+            </div>
+
+             <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+            <script>
+                $(document).ready(function(){
+	var main = $('.bxslider').bxSlider({
+		mode: 'fade',
+		auto: true,		//자동으로 슬라이드
+		controls : true,	//좌우 화살표	
+		autoControls: true,	//stop,play
+		pager:true,	//페이징
+		pause: 3000,
+		autoDelay: 0,	
+		slideWidth: 2000,
+       	speed: 500,
+		stopAutoOnclick:true
+	});
+  
+	$(".bx-stop").click(function(){	// 중지버튼 눌렀을때
+		main.stopAuto();
+		$(".bx-stop").hide();
+		$(".bx-start").show();
+		return false;
+	});
+
+	$(".bx-start").click(function(){	//시작버튼 눌렀을때
+	    main.startAuto();
+		$(".bx-start").hide();
+		$(".bx-stop").show();
+		return false;
+	});
+	
+	$(".bx-start").hide();	//onload시 시작버튼 숨김.
+});
+</script>
+
+        <!--   ----  special menu start----------->
+        <div id="wrapper2">
+                          <div class="special_logo">
+                                <h1><span>설렘 가득한</span> Special Menu</h1>
+                            </div>
+             <div id="works">
+            <div class="item item-1">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special 1</a>
+            </div>
+            <div class="item item-2">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special  2</a>
+            </div>
+            <div class="item item-3">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special  3</a>
+            </div>
+            <div class="item item-4">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special  4</a>
+            </div>
+            <div class="item item-5">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special 5</a>
+            </div>
+            <div class="item item-6">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special 6</a>
+            </div>
+            <div class="item item-7">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special 7</a>
+            </div>
+            <div class="item item-8">
+                <div class="bg-hover"></div>
+                <a href="#">Tasha's december Special 8</a>
+            </div>
+        </div>
+        </div>
+
+<!---------#wrapper3 start---->
+ <div id="wrapper3">
+     
+      <div class="intro_title">
+                <h1>About Tasha</h1>
+            </div>
+<!--     <div class="intro_sub"><img src="images/1.jpg" alt=""></div>-->
+          <div id="intro">
+         
+           <div class="intro_text1">
+                  <p>바리스타 선옥남은 계룡산의 명품 바리스타다. 커피의 신 칼디에게 커피 기술을 직접 배웠던 그녀는 무려 커피콩의 잠재력을 일깨워 커피를 내린다. ‘참새의 아침식사’, ‘안돼요 공주님’ 등 블렌딩의 이름도 독특하다. 다방을 운영하며 몇백 년을 계룡산에 머물렀던 탐랑성이 직접 내린 커피와 "떡파티쉐"가 만드는 절대절대 살 안찌는 떡이 "Tasha"의 자랑이다.<br>
+                    Tasha의 바리스타 "탐랑성 선옥남"이 맷돌로 직접 갈아 달인 커피는 불면증 환자에게 꿀잠을 선물하고, 기억을 읽어가는 치매환자에게는 기억을 선물하고, 카페인의 기가 필요한 사람에게는 에너지를 선물한다. "사슴의 눈물"은 과테말라와 콜롬비아를 7:3 비율로 부렌딩하고 커피맷돌로 분쇄한 후, 15g의 커피와 200ml의 물을 붓고 나무막대로 저어준 뒤 뚜껑을 덮어 3분 후 마시는 것이 비결이다.<br>
+                    Tasha의 바리스타는 ‘사슴과 나무꾼’에 나왔던 실제 선녀다. 아이를 두 명 낳았을 즈음 나무꾼이 나무를 하러 갔다가 절벽에서 떨어져 죽는 바람에 날개옷을 찾지 못해 699년 동안이나 나무꾼의 환생을 기다리며 Tasha에 머물고 있다.
+                </p>
+
+            </div>
+              <div class="intro_img"><img src="images/b1.jpg" alt="">
+              <br>
+               <p> 바리스타 "선옥남"</p>
+            </div>
+            <div class="intro_text2">
+                <p>Tasha에서 판매하고 있는 떡은 계룡산에서 생산되는 재료로만 만드는 전통떡이다. Tasha의 커피와 찰떡궁합을 이루는 맛으로 한 번 맛 본 사람은 절대절대 끊을 수 없는 마약떡이라고 할까. Tasha의 떡은 3가지 매력을 발산하는 매력떡이다. 첫 째 떡을 싫어하는 젊은이들을 위해 sns에 자랑하고 싶은 비주얼을 기본으로 한다. 간혹 예쁜 비주얼 때문에 사진을 찍기도 전에 손을 들이댄 남정네들의 무지함 때문에 따로 나가기도 한다. 둘 째 빚쟁이가 몰려와도 잊어버릴 정도의 맛이다. 한 번 손을 대면 절대절대 손을 뗄 수가 없다. 셋 째, 아무리 먹어도 살이 찌지 않는다. 위축되는 쌀의 소비를 무한정 증대시킬 수 있는 마법의 떡이다. 
+                </p>
+                
+            </div>
+       </div>
+        </div>    
+<!--     --- #wrapper4 start------>
+    <div id="wrapper4">
+            <div class="main_img"><img src="images/18.jpg" alt="">
+               
+         <div class="frontBox">
+             <div class="front1">
+             <h2>ADDRESS</h2>
+             <p>충청남도 공주시 반포면 <br><br> &nbsp;&nbsp;&nbsp; 동학사 1 로 462</p>
+         </div>
+         <div class="front2">
+             <h2>CONTACT</h2>
+             <p>info@mysite.com<br><br>
+              Tel: 123-456-7890</p>
+         </div>
+         <div class="front3">
+             <h2>HOURS</h2>
+             <p>Mon - Fri: 7am - 10pm<br><br>
+                Saturday: 8am - 11pm<br><br>
+                Sunday: 8am - 10pm</p>
+
+         </div>
+ </div>   
+          <div class="front4">
+              <p>© 2018 by mijung Kim. Proudly created with Tasha.com</p>  </div>
+              <div class="iconBox">
+    <ul>
+        <li><a href="https://www.facebook.com/TaleOfGyeryongFairy/"><img src="images/i5.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/explore/tags/%EA%B3%84%EB%A3%A1%EC%84%A0%EB%85%80%EC%A0%84/?hl=ko"><img src="images/i6.png" alt=""></a></li>
+        <li><a href="https://www.youtube.com/watch?v=Sm64JU3Zgmk"><img src="images/i7.png" alt=""></a></li>
+        <li><a href="#"><img src="images/i8.png" alt=""></a></li>
+         <li><a class="quick_menu" href="#"><img src="images/i10.png" alt=""></a></li>
+    </ul>
+</div>
+        <script>
+           $(function(){
+               var defaultTop=parseInt($(".quick_menu").css("top"));
+	$(window).on("scroll",function() {
+		var scv=$(window).scrollTop();
+	$(".quick_menu").stop().animate({top:scv+defaultTop+"px"},1000);
+
+});
+           });
+            </script>
+         
+          </div>                   
+    
+        </div>
+<!--        ---#wrapper5 start---->
+   <div id="wrapper5">
+ <div class="logo">
+                        <h1>Tasha</h1>
+                        <p>Speciality Coffee House</p>
+                    </div>
+                     <nav class="clearfix">
+   	      <ul class="clearfix">
+   	         <li><a class="text" href="#">Menu</a></li>
+                            <li><a id="sos" href="#wrapper2">Special Menu</a></li>
+                            <li><a id="sos" href="#wrapper3">About tasha</a></li>
+                            <li><a id="sos" href="#wrapper4">Sign in</a></li>
+                            <li><a class="text5" href="#">Direction</a></li>
+   	      </ul>
+   	      <a id="pull" href="#"></a>
+   	  </nav>
+
+                    
+   
+    </div>
+    <script>
+   	      $(function(){
+   	      	var pull=$('#pull');
+   	      	    menu=$('nav ul');
+   	      	    menuHeight=menu.height();   	      
+   	      $(pull).on('click', function(e){
+   	      	e.preventDefault();
+   	      	menu.slideToggle();   	      	
+   	      });
+   	      $(window).resize(function(){
+   	      	var w=$(window).width();
+   	      	if(w>600 && menu.is(':hidden'))
+   	      		{menu.removeAttr('style');}
+   	      });
+   	  });
+   	   </script>
+    </body>
+    
+    <div id="popup">
+    <div class="cont">
+      <div>
+        <img id="cat" src="https://www.kasandbox.org/programming-images/misc/cat-walk.gif">
+    </div>
+     <script>
+  var catEl = document.getElementById("cat");
+  
+  var startTime = new Date().getTime();
+  var walkTheCat = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+  };
+  walkTheCat();
+  </script>
+
+<!--  ---------popup start----- -->
+     <div class="map">
+    <h2>찾아오시는 길</h2>
+    <img src="images/map.jpg" alt="">
+    <h3>산길이 위험하오니 조심조심 살금살금 단디 오세요~</h3>
+    </div>
+  
+        <button><img class="btn1" src="images/md2.png" alt=""></button>
+</div>
+        </div>
+    <script>
+    $(function() {
+        $(".text5").click(function() {
+            $("#popup").show();
+        });
+        $("#popup button").click(function() {
+            $("#popup").hide();
+        });
+          
+       
+          $("nav #sos").click(function(e){
+            $.scrollTo(this.hash || 0,1500);
+            e.preventDefault();
+        });
+        });
+    
+</script>  
+    
+    
+</html>
