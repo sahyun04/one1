@@ -1568,9 +1568,11 @@ nav {
     margin-top: -15%;
     border-radius: 100%;
 }
-    #popup .cont h3{
-        margin-left: -25%;
-        font-size: .8rem;
+    #popup .cont h2{
+     display: none;
     }
+    #popup .cont h3{
+       display: none;
+           }
 }
 
