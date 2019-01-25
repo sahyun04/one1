@@ -317,10 +317,10 @@ a:focus {
     width: 20%;
     height: auto;
     position: absolute;
-  top: 115%;
+  top: 55%;
     left: 40%;
-     color:#333; 
-    font-size: 1.1em;
+     color:#fff;
+    font-size: 2em;
     text-align: center;
    }
 .slide-logo span{
@@ -756,7 +756,7 @@ nav a#pull{
     width: 40%;
     height: auto;
     position: absolute;
-  top: 60%;
+  top: 30%;
     left: 30%;
      color:#333; 
     font-size: 0.875em;
@@ -835,7 +835,7 @@ nav a#pull{
 .frontBox{
     position: absolute;
     top: 10em;;
-    left: 12em;
+    left: 25em;
     display: flex;
     flex-direction: row;
    width: 70%;
@@ -843,8 +843,8 @@ nav a#pull{
      justify-content: center;
     align-content: center;
     color: #fff;
-    
-     }
+    margin-left: 5rem;
+       }
  
 .front1 {
    flex: 1;
@@ -862,6 +862,7 @@ nav a#pull{
     position: absolute;
     top: 60%;
     left: 30%;
+    margin-left: 5em;
 }
 .iconBox{
     width: 30%;
@@ -935,7 +936,217 @@ nav {
 }
 }
 
+/*--------768 mediaquery start----*/
 
+@media screen and (max-width:1024px){
+
+   #modal .contents {
+    width: 90%;
+    height: 60%;
+    background: ##2e6b92;
+    text-align: center;
+/*    margin: 10px 30px;*/
+    position: absolute;
+      left: %;
+}
+    #modal h1{
+        color: #fff;
+        width: 50%;
+    }
+#modal .contents button {
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 85%;
+    margin-top: 10%;
+     overflow: hidden;
+         }
+
+#modal .contents button img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin-left: -10%;
+    margin-top: -30%;
+}
+
+    .slide-logo p{
+    width: 40%;
+    height: auto;
+    position: absolute;
+  top: 55%;
+    left: 30%;
+     color:#fff;
+    font-size: 2em;
+    text-align: center;
+         }
+
+.slide-logo span{
+    font-size: 2em;
+    top: 850px;
+}
+    #works{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "item1 item2"
+            "item3 item2""
+            "item4 item6"
+            "item4 item8";
+
+        width: 100%;
+        height: 1500px;
+           }
+    .item-1{grid-area: item1;}
+    .item-2{grid-area: item2;}
+    .item-3{grid-area: item3;}
+    .item-4{grid-area: item4;}
+    .item-5{display: none;}
+    .item-6{grid-area: item6;}
+    .item-7{display: none;}
+    .item-8{grid-area: item8;}
+
+    #intro{
+    position: relative;
+   }
+
+.intro_text1{
+    position: absolute;
+    top: %;
+    color: #fff;
+    padding: 2%;
+    line-height: 1.6em;
+    font-size: 1.1rem;
+   }
+.intro_img{
+ display: none;
+    }
+.intro_img img{
+  display: none;
+      }
+.intro_text2{
+ position: absolute;
+    top: 57%;
+    left:3%;
+    color: #fff;
+    padding: 1%;
+    line-height: 1.6em;
+    font-size: 1.1rem;
+}
+  .frontBox{
+    position: absolute;
+    top: 10em;;
+    left: 4em;
+    display: flex;
+    flex-direction: row;
+   width: 70%;
+    height: 30%;
+     justify-content: center;
+    align-content: center;
+    color: #fff;
+
+     }
+
+.front1 {
+   flex: 1;
+}
+
+.front2{
+     flex: 1;
+   }
+
+.front3{
+     flex: 1;
+   }
+.front4{
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 22%;
+}
+.iconBox{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -30%;
+    left: 32%;
+}
+.iconBox ul li{
+    float: left;
+    margin: .5em;
+  }
+   nav {
+		border-bottom: 0;
+		height: auto;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+           	}
+	nav a#pull {
+		display: block;
+		background-color: #283744;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('../images/nav-icon1.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: px;
+        	}
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+/*		border-bottom: 1px solid #576979;*/
+
+	}
+ #popup .cont button {
+     width: 4%;
+    height: 4%;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 80%;
+    margin-top: %;
+    overflow: hidden;
+
+   }
+
+#popup .cont button img {
+  max-width:200%;
+    height:auto;
+    background-size: cover;
+    margin-left: -30%;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+    #popup .cont h3{
+        margin-left: -25%;
+        font-size: .8rem;
+    }
+}
+
+
+
+
+/*-------640 mediaquery start ------*/
 
 @media ( max-width : 640px ){
     #modal .contents {
@@ -973,10 +1184,10 @@ nav {
     width: 40%;
     height: auto;
     position: absolute;
-  top: 115%;
+  top: 55%;
     left: 30%;
-     color:#333; 
-    font-size: 0.875em;
+     color:#fff;
+    font-size: 1.5em;
     text-align: center;
          }
     
@@ -1036,7 +1247,7 @@ nav {
   .frontBox{
     position: absolute;
     top: 10em;;
-    left: 3em;
+    left: 1em;
     display: flex;
     flex-direction: row;
    width: 70%;
@@ -1062,7 +1273,7 @@ nav {
     color: #fff;
     position: absolute;
     top: 60%;
-    left: 20%;
+    left: 10%;
 }
 .iconBox{
     width: 30%;
@@ -1073,6 +1284,228 @@ nav {
     position: relative;
     top: -30%;
     left: 32%;
+}
+.iconBox ul li{
+    float: left;
+    margin: .5em;
+  }
+   nav {
+		border-bottom: 0;
+		height: auto;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+           	}
+	nav a#pull {
+		display: block;
+		background-color: #283744;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('../images/nav-icon1.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: px;
+        	}
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+/*		border-bottom: 1px solid #576979;*/
+
+	}
+ #popup .cont button {
+     width: 4%;
+    height: 4%;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 80%;
+    margin-top: %;
+    overflow: hidden;
+
+   }
+
+#popup .cont button img {
+  max-width:200%;
+    height:auto;
+    background-size: cover;
+    margin-left: -30%;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+    #popup .cont h3{
+        margin-left: -25%;
+        font-size: .8rem;
+    }
+}
+
+
+/*-------360 mediaquery start ------*/
+
+@media ( max-width : 360px ){
+    #modal .contents {
+    width: 90%;
+    height: 60%;
+    background: ##2e6b92;
+    text-align: center;
+/*    margin: 10px 30px;*/
+    position: absolute;
+      left: %;
+}
+    #modal h1{
+        color: #fff;
+        width: 50%;
+        position: absolute;
+        left: -20%;
+    }
+#modal .contents button {
+    width: 5%;
+    height: 5%;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 85%;
+    margin-top: 10%;
+     overflow: hidden;
+         }
+
+#modal .contents button img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin-left: -10%;
+    margin-top: -30%;
+}
+
+    .slide-logo p{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+  top: 55%;
+    left: 30%;
+     color:#fff;
+    font-size: 2em;
+    text-align: center;
+         }
+
+.slide-logo span{
+    font-size: 2em;
+    top: 850px;
+    margin-top: 1rem;
+}
+    .special_logo h1{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    #works{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "item1 item2"
+            "item3 item2""
+            "item4 item6"
+            "item4 item8";
+
+        width: 100%;
+        height: 1500px;
+           }
+    .item-1{grid-area: item1;}
+    .item-2{grid-area: item2;}
+    .item-3{grid-area: item3;}
+    .item-4{grid-area: item4;}
+    .item-5{display: none;}
+    .item-6{grid-area: item6;}
+    .item-7{display: none;}
+    .item-8{grid-area: item8;}
+
+    #intro{
+    position: relative;
+   }
+
+.intro_text1{
+    position: absolute;
+    top: %;
+    color: #fff;
+    padding: 2%;
+    line-height: 1.6em;
+    font-size: .875rem;
+   }
+.intro_img{
+ display: none;
+    }
+.intro_img img{
+  display: none;
+      }
+.intro_text2{
+ position: absolute;
+    top: 60%;
+    left:3%;
+    color: #fff;
+    padding: 1%;
+    line-height: 1.6em;
+    font-size: .875rem;
+}
+  .frontBox{
+    position: absolute;
+    top: 10em;;
+    left: 1em;
+    display: flex;
+    flex-direction: column;
+   width: 70%;
+    height: 30%;
+     justify-content: center;
+    align-content: center;
+    color: #fff;
+        }
+
+.front1 {
+   flex: 1;
+    font-size: .875rem;
+       margin-bottom: 2em;
+}
+
+.front2{
+     flex: 1;
+     font-size: .875rem
+     margin-bottom: 2em;
+
+   }
+
+.front3{
+     flex: 1;
+     font-size: .875rem;
+        margin-top: 2em;
+         margin-bottom: 2em;
+   }
+.front4{
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: -10%;
+     font-size: .875rem
+}
+.iconBox{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -30%;
+    left: 22%;
 }
 .iconBox ul li{
     float: left;
